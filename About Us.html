@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Index1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+
+
+     body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #111, #222);
+    
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.projects {
+    padding: 50px 20px;
+    border-radius: 4px;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #111;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: Orange;
+}
+
+.project-card h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.project-card p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+img{
+    border-radius: 20px 5px 20px 5px;
+    border: solid white;
+}
+     
+     
+</style>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="#contact">Ad's</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        
+        <h2>I'm Tanmay Pawar</h2>
+        <p>Discover who I'am</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Contact details</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Email</h3>
+                <p>mahendrapawar5225@gmail.com</p>
+            </div>
+            <div class="project-card">
+                <h3>Second Email</h3>
+                <p>sunitapawar19449@gmail.com</p>
+            </div>
+            <div class="project-card">
+                <h3>Whatsapp</h3>
+                <p>The Contact Details For This Point</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <Section id="projects"  class="projects">
+        <h2>I'm An School Student</h2> <p>
+            I live in Chinchani. This is an Small Village in India, Maharashtra. <br>
+            While evryone is struggling for Farming I have Choosed The way Developing. <br>
+            The Developing helps us to boost our Productivity. While I'm in 7th Std In Goverment <br>
+            School. The knowledge Of Proggraming Is Very Out Of Box. I have tried To get an <br> 
+            Project Online. I used Every Freelancing Website (Upwork, Firmwork). <br>
+            I have To code of Justice. This is My First Website. You can say It An <br>
+            'Portfolio'. Portfolio Is Way to tell People What You Are If <br>
+            An Developer. You can Give Your Projects There. To Users.
+        </p> 
+    </Section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
